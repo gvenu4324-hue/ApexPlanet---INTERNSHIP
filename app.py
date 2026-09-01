@@ -35,8 +35,9 @@ st.markdown("---")
 
 BASE_DIR = Path(__file__).parent
 
-DATA = BASE_DIR / "data" / "cleaned_dataset.csv"
-CERT = BASE_DIR / "assets" / "certificate.png"
+DATA = BASE_DIR / "Task-1-DATA IMMERSION AND WRANGLING" / "netflix_titles_cleaned.csv"
+
+CERT = BASE_DIR / "apex_planet_certificate.png"
 
 # ============================================================
 # LOAD DATA
